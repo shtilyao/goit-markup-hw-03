@@ -12,6 +12,7 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -52,6 +53,7 @@ footer {
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 header .logo {
@@ -72,4 +74,15 @@ header address a {
 
 a {
     text-decoration: none;
+}
+
+.team p, 
+.team h2, 
+.team h3,
+.portfolio h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
 }
