@@ -68,7 +68,7 @@ footer {
     letter-spacing: 0.03em;
 }
 
-header .logo {
+header .logo a {
     color: #2E2F42;
 }
 
@@ -91,7 +91,7 @@ ul {
     list-style: none;
 }
 
-nav {
+nav a {
     font-weight: 500;
     color: #2E2F42;
 }
