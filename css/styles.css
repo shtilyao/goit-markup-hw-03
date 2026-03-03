@@ -17,6 +17,7 @@ h1 {
     line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -31,12 +33,13 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -51,7 +54,7 @@ h3 {
     background-color: #F4F4FD;
 }
 
-.teamcard {
+.team-card {
     background-color: #FFFFFF;
 }
 
@@ -66,6 +69,7 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    line-height: 1.17;
 }
 
 header .logo a {
