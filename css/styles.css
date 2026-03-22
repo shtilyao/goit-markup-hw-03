@@ -95,15 +95,15 @@ ul {
     list-style: none;
 }
 
-nav a {
+.link-nav {
     font-weight: 500;
     color: #2E2F42;
 }
 
-nav a:hover,
-nav a:focus,
-address a:hover,
-address a:focus {
+.link-nav:hover,
+.link-nav:focus,
+.link-address:hover,
+.link-address:focus {
     color: #404BBF
 }
 
@@ -112,12 +112,12 @@ address a:focus {
     background-color: #404BBF
 }
 
-nav a:active {
+.link-nav:active {
     text-decoration: underline;
     color: #404BBF
 }
 
-address a {
+.link-address {
     color: #434455;
     font-style: normal;
     font-weight: 400;
