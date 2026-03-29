@@ -111,6 +111,10 @@ img {
     background-color: #404BBF
 }
 
+.card-title {
+    margin-bottom: 8px;
+}
+
 /* ----- HEADER --------------------------------------- */
 
 .header-flex {
@@ -241,10 +245,6 @@ font-style: normal;
     padding: 32px 16px;
 }
 
-.team-card-title {
-    margin-bottom: 8px;
-}
-
 .team-card-text,
 .team-title,
 .team-card-title {
@@ -273,9 +273,6 @@ font-style: normal;
     padding: 32px 16px;
 }
 
-.portfolio-card-title {
-    margin-bottom: 8px;
-}
 
 .portfolio-card {
     width: calc((100% - 48px) / 3);
