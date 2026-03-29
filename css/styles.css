@@ -113,15 +113,14 @@ img {
 
 /* ----- HEADER --------------------------------------- */
 
-header .container {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .left-side {
@@ -145,11 +144,12 @@ header .container {
     color: #4D5AE5;
 }
 
-header .logo a {
+.header-logo-link {
     color: #2E2F42;
+    padding: 24px 0;
 }
 
-nav ul {
+.nav-list {
     display: flex;
     gap: 40px;
 }
@@ -157,6 +157,7 @@ nav ul {
 .link-nav {
     font-weight: 500;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -171,15 +172,19 @@ nav ul {
     color: #404BBF
 }
 
-address ul {
+.address-list {
     display: flex;
     gap: 40px;
 }
 
 .link-address {
     color: #434455;
-    font-style: normal;
     font-weight: 400;
+    padding: 24px 0;
+}
+
+address {
+font-style: normal;
 }
 
 /* ----- HERO ------------------------------------- */
@@ -235,13 +240,13 @@ address ul {
     padding-bottom: 32px;
 }
 
-.team-card-fill h3 {
+.team-card-title {
     margin-bottom: 8px;
 }
 
-.team p,
-.team h2,
-.team h3 {
+.team-card-text,
+.team-title,
+.team-card-title {
     text-align: center;
 }
 
@@ -251,7 +256,7 @@ address ul {
     padding: 120px 0;
 }
 
-.portfolio h2 {
+.portfolio-title {
     text-align: center;
 }
 
@@ -264,11 +269,15 @@ address ul {
 .portfolio-card-fill {
     border: 1px solid #E7E9FC;
     border-top: none;
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
 }
 
-.portfolio-card-fill h3 {
+.portfolio-card-title {
     margin-bottom: 8px;
+}
+
+.card-set-portfolio li {
+    width: calc((100% - 48px) / 3);
 }
 
 /* ----- FOOTER ----------------------------------- */
