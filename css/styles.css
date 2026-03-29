@@ -206,11 +206,14 @@ font-style: normal;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 120px auto;
 }
 
 .card-features {
     max-width: 264px;
+}
+
+.features {
+    padding: 120px 0;
 }
 
 /* ----- TEAM ----------------------------------- */
@@ -236,8 +239,7 @@ font-style: normal;
 }
 
 .team-card-fill {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
 }
 
 .team-card-title {
@@ -276,7 +278,7 @@ font-style: normal;
     margin-bottom: 8px;
 }
 
-.card-set-portfolio li {
+.portfolio-card {
     width: calc((100% - 48px) / 3);
 }
 
@@ -300,7 +302,7 @@ footer {
     padding-bottom: 100px;
 }
 
-footer .logo a {
+.logo-footer-link {
     color: #F4F4FD;
 }
 
