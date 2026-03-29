@@ -119,7 +119,7 @@ img {
     align-items: center;
 }
 
-header {
+.header {
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -183,7 +183,7 @@ header {
     padding: 24px 0;
 }
 
-address {
+.address {
 font-style: normal;
 }
 
@@ -197,7 +197,7 @@ font-style: normal;
 .hero-title {
     padding-top: 188px;
     margin: 0 auto;
-    width: 496px;
+    max-width: 496px;
 }
 
 /* ----- FEATURES --------------------------------- */
@@ -295,7 +295,7 @@ font-style: normal;
 
 /* ----- FOOTER ----------------------------------- */
 
-footer {
+.footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     padding-top: 100px;
